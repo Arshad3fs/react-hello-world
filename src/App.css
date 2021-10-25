@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+input{
+  margin-bottom: 20px;
+  padding: 10px;
+}
+button{
+  padding: 10px;
+  width: 200px;
+  color: white;
+  background-color: darkcyan;
+}
+
+form{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  color: red;
+}
