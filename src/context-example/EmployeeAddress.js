@@ -8,7 +8,7 @@ export default function EmployeeAddress(){
     const [gift, setGift] = useState("");
 
     useEffect(()=> {
-        setGift(data[0]);
+        setGift(data ? data[0] : "");
     }, [data]);
 
     setTimeout(()=> {
